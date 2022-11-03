@@ -8,3 +8,11 @@
   background-color: rgba(255, 0, 0, 0.4);
   display: inline-block;
 }
+
+.lorem-ipsum-paragraph {
+  font-style: italic;
+  color: blue;
+}
+#special-paragraph {
+  color: red;
+}

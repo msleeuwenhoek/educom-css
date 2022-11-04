@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  padding: 2rem;
+}
+
+header,
+section,
+footer {
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+header {
+  background-color: bisque;
+}
+
+footer {
+  background-color: rgb(55, 30, 30);
+  display: flex;
+  color: white;
+  gap: 2rem;
+}
+
+.cascading {
+  padding-block: 1rem;
+  font-weight: bold;
+  color: rgb(150, 30, 142);
+}
+
+footer .cascading {
+  color: yellow;
+}

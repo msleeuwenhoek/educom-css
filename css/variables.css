@@ -1,0 +1,38 @@
+:root {
+  --main-color: #090733;
+
+  --accent-color: #eba31c;
+
+  --padding-inline: 3rem;
+  --padding-block: 2rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+section,
+footer {
+  padding: var(--padding-block) var(--padding-inline);
+}
+h1,
+h2 {
+  color: var(--main-color);
+}
+
+header .random-accent {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+footer {
+  background-color: var(--main-color);
+  display: flex;
+  color: white;
+  gap: 2rem;
+}
+
+footer h3 {
+  color: var(--accent-color);
+}
